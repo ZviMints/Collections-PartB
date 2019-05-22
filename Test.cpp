@@ -198,7 +198,7 @@ int main() {
 
 	testcase.CHECK_EQUAL(iterable_to_string(powerset(range(1,4))),
 		string("{},{1},{2},{1,2},{3},{1,3},{2,3},{1,2,3},"));
-/*
+///*
 	testcase.CHECK_EQUAL(iterable_to_string(powerset(zip(range('m','o'),range(15,17)))),
 		string("{},{m,15},{n,16},{m,15,n,16},"));
 	
@@ -210,11 +210,11 @@ int main() {
 		for (auto j : i)
 			sum += j;
 	testcase.CHECK_EQUAL(sum,80);
-	
+//	*/
 	//this test is not compiled yet	
 	testcase.CHECK_EQUAL(iterable_to_string(powerset(product(range(2,4), range(10,12)))),
 		string("{},{2,10},{2,11},{2,10,2,11},{3,10},{2,10,3,10},{2,11,3,10},{2,10,2,11,3,10},{3,11},{2,10,3,11},{2,11,3,11},{2,10,2,11,3,11},{3,10,3,11},{2,10,3,10,3,11},{2,11,3,10,3,11},{2,10,2,11,3,10,3,11},"));
-*/
+
 		range a11{1, 1};	range a044{0, 44};range Saz{'a', 'z'};range Saa{'a', 'a'};range Smq{'m' , 'q'};
 		
 		chain CR14R03{range{1, 4}, range{0, 3}}; chain CRACRDG{range{'a', 'c'}, range{'d', 'g'}};chain CACSTEST{range{'a', 'c'}, string{"test"}};
